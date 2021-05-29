@@ -1,0 +1,55 @@
+.div1{display: inline;}
+@media (min-width:255px) and (max-width:589px){
+.div1{display:block}
+}
+@keyframes my-anim{
+    0% {transform: scale(1);}
+    50%{transform:scale(1.1);}
+    100%{transform:scale(1);}
+}
+img:hover{animation: my-anim 3s;}
+body{font-family: Arial;}
+.a{background-color: black;}
+footer{background-color:#34495e;
+height:100px;
+color: white;}
+.footer{
+padding-top: 60px;
+padding-left: 60px;
+}
+button{
+background-color: rgb(241,196,15);
+text-align: right;
+vertical-align: middle;
+}
+body{background-image:url("mcoc_presskit_ss4-group.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+h1{color:white;
+text-align: center ;}
+h2{color:white;}
+p{color:white;}
+.prof{height:50%;
+width: 50%;}
+.mut15{height: 50%;
+margin-top: 10px;}
+button{
+    margin: 0px;
+    background: e6eeee;
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    }
+body{text-align: center;}
+p{font-size: 20px;}
+
+.div{background-color: black;}
+.up{text-decoration:none ;}
